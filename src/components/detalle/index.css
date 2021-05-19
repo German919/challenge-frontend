@@ -1,0 +1,30 @@
+.container-detalle{
+    padding: 3rem;
+    border: 2px solid #555;
+}
+
+.container-detalle li{
+    font-size: 1.5rem;
+}
+.container-detalle h1{
+    font-weight: 800;
+}
+.container-detalle li span{
+    font-weight: 700;
+}
+
+.container-detalle button{
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width:768px){
+    .container-detalle li{
+        font-size: 1rem;
+    }
+    .container-detalle h1{
+        font-weight: 700;
+    }
+    .container-detalle li span{
+        font-weight: 600;
+    }
+}

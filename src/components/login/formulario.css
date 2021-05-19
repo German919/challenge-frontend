@@ -1,0 +1,86 @@
+body {
+    background-color:#fff;
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px Roboto,arial,sans-serif;
+  }
+
+  form{
+      margin-left: 36.3%;
+  }
+  .form-error{
+      float: left;
+      color: red;
+      font-weight: 700;
+  }
+  .container {
+      padding: 25px;
+      position: fixed; 
+  }
+  
+  .form-login {
+      inline-size: 20rem;
+      background-color: #EDEDED;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 15px;
+      border-color:#d2d2d2;
+      border-width: 5px;
+      box-shadow:0 1px 0 #cfcfcf;
+  }
+  
+  h4 { 
+   border:0 solid #fff; 
+   border-bottom-width:1px;
+   padding-bottom:10px;
+   text-align: center;
+  }
+  
+  .form-control {
+      border-radius: 10px;
+  }
+  
+  .wrapper {
+      text-align: center;
+  }
+
+  @media screen and (max-width:1025px){
+    form{
+        margin-left: 35%;
+    }
+  }
+  @media screen and (max-width:920px){
+    form{
+        margin-left: 34%;
+    }
+  }
+
+  @media screen and (max-width:860px){
+    form{
+        margin-left: 32%;
+    }
+  }
+  @media screen and (max-width:810px){
+    form{
+        margin-left: 27%;
+    }
+  }
+
+  @media screen and (max-width:690px){
+    form{
+        margin-left: 24%;
+    }
+  }
+
+  @media screen and (max-width:630px){
+    form{
+        margin-left: 21%;
+    }
+  }
+  @media screen and (max-width:376px){
+    form{
+        margin-left: -1.5%;
+    }
+  }
+  

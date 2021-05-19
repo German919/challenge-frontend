@@ -1,0 +1,55 @@
+.show-cartel{
+    position: absolute;
+    left: 26%;
+    top:20%;
+    inline-size: 40.5rem;
+    block-size: 11rem;
+    border: 5px solid #222;
+    z-index: 50;
+    background: rgb(250, 250, 250);
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    position: fixed;
+}
+.show-cartel h3{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.show-cartel button{
+    inline-size: 5.7rem;
+    padding: 1rem;
+    background: rgb(105, 163, 230);
+    border-radius: .5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin:auto;
+    margin-top: 1rem;
+}
+.show-cartel button:hover{
+    background: rgb(24, 122, 233);
+    color: #FFF;
+}
+
+@media screen and (max-width:1025px){
+    .show-cartel{
+        inline-size: 40rem;
+        left: 18.7%;
+    }
+}
+
+@media screen and (max-width:769px){
+    .show-cartel{
+        inline-size: 40rem;
+        left: 8.2%;
+    }
+}
+
+@media screen and (max-width:426px){
+    .show-cartel{
+        inline-size: 39.5rem;
+        left: .5%;
+    }
+}
