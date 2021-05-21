@@ -45,8 +45,7 @@ const Login = () => {
             .then(res => res.json())
             .then(res => (
                 localStorage.setItem("token",  res.token),
-                setLocation("/home"),
-                console.log(res)
+                setLocation("/home")
             ))
             .catch(err => alert("Error en la api ", err.response))
         } 

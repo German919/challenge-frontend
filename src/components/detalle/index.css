@@ -13,8 +13,14 @@
     font-weight: 700;
 }
 
-.container-detalle button{
+.container-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-detalle{
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width:768px){

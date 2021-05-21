@@ -13,3 +13,31 @@
     gap:.5rem;
     margin-top: .7rem;
 }
+
+.container-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.crear-post-button{ 
+    margin-bottom: 1rem;
+    
+}
+@media screen and (max-width:426px){
+    .crear-post-button{
+        margin-left: 14rem ;
+        inline-size: 7rem;
+    }
+}
+@media screen and (max-width:375px){
+    .crear-post-button{
+        margin-left: 16.7rem ;
+        inline-size: 7rem;
+    }
+}
+@media screen and (max-width:361px){
+    .crear-post-button{
+        margin-left: 16.5rem;
+        inline-size: 7rem;
+    }
+}

@@ -1,0 +1,43 @@
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    margin-left: 18.5%; 
+
+  }
+
+  .form {
+    width: 450px; 
+    
+  }
+
+  .label-error{
+    margin-top: .5rem;
+    color: red;
+    font-weight: 800;
+  }
+
+  h1{
+      font-weight: 700;
+  }
+
+  button{
+      margin-right: 5px;
+      margin-top: 1rem;
+  }
+
+  input, textarea{
+      text-align: center;
+      
+  }
+
+  label{
+      font-size: 1rem;
+      font-weight: 700;
+      margin-top: 1rem;
+  }
+  .container-button{
+    display: flex;
+    justify-content: space-around;
+}

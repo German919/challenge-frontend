@@ -10,6 +10,10 @@ const Detalle = ({params}) =>{
     
     const [detalle, setDetalle] = useState([])
 
+    if(!localStorage.getItem("token")){
+        setLocation("/")
+    }
+
     useEffect(()=>{
         fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
             .then(res => res.json())
@@ -20,8 +24,18 @@ const Detalle = ({params}) =>{
         setLocation("/home")
     }
 
+    const logout = () =>{
+        localStorage.removeItem("token")
+        setLocation("/")
+    }
+
     return (
         <>
+        <div className="container-button">
+            <button onClick={handleBack} className="btn btn-primary btn-md button-detalle">Home</button>
+            <button onClick={logout} className="btn btn-primary btn-md button-detalle">Logout</button>
+        </div>
+        
         <div className="container-detalle">
         <h1>{detalle.title}</h1>
         <ul className="list-group list-group-flush">
@@ -29,7 +43,6 @@ const Detalle = ({params}) =>{
             <li className="list-group-item" ><span>Id:</span> {detalle.id}</li> 
             <li className="list-group-item" >{detalle.body}</li> 
         </ul> 
-        <button onClick={handleBack} className="btn btn-primary btn-md">volver</button>
         </div>
         </>
     )
